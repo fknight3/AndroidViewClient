@@ -1,5 +1,15 @@
-AndroidViewClient
+AndroidViewClient for Python ≥3.6
 =================
+
+**This is a Python 3.6 compatible fork of the original [_dtmilano's_ AndroidViewClient](https://github.com/dtmilano/AndroidViewClient) repository.**
+
+#### Why ≥3.6 instead of ≥ 3?
+I share my opinion with _Kenneth Reitz's_ (quoted on [The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/starting/which-python/#recommendations)) and believe that Python 3 is the future. Moreover, Python versions 3.5 and 3.6 added many useful features to the language which I like and use frequently.
+
+I try to keep my code as PEP compatible, organized and clean as possible - thanks to [PyCharm](https://www.jetbrains.com/pycharm/) IDE for making all of this possible while making my life easier.
+
+##
+
 <a href="#"><img src="https://github.com/dtmilano/AndroidViewClient/wiki/images/culebra-logo-transparent-204x209-rb-border.png" align="left" hspace="0" vspace="6"></a>
 **AndroidViewClient** was originally conceived as an extension to [monkeyrunner](http://developer.android.com/tools/help/monkeyrunner_concepts.html) but lately evolved
 as a pure python tool that automates or simplifies test script creation.

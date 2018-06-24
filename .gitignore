@@ -2,6 +2,7 @@
 ####################
 *$py.class
 *.pyc
+__pycache__
 
 # Mac files #
 #############
@@ -23,6 +24,8 @@ dist/
 *.iws
 **/.idea/workspace.xml
 **/.idea/tasks.xml
+**/.idea/deployment.xml
+
 
 # venv #
 ########
