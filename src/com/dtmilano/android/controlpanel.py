@@ -24,7 +24,7 @@ __version__ = '15.3.1'
 import Tkinter
 import ttk
 
-from com.dtmilano.android.culebron import Operation, Color
+from .culebron import Operation, Color
 
 
 class Key:

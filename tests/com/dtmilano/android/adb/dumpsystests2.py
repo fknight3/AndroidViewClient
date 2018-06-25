@@ -10,8 +10,8 @@ try:
 except:
     pass
 
-from com.dtmilano.android.adb import adbclient
-from com.dtmilano.android.adb.dumpsys import Dumpsys
+from androidviewclient3.adb import adbclient
+from androidviewclient3.adb.dumpsys import Dumpsys
 
 SAMPLE_PROCESS_NAME = 'com.android.systemui'
 

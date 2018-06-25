@@ -16,7 +16,7 @@ try:
 except:
     pass
 
-import com.dtmilano.android.viewclient as viewclient
+import androidviewclient3.viewclient as viewclient
 if viewclient.__version__ < '1.0':
     print >> sys.stderr, "%s: This script requires viewclient 1.0 or greater." % os.path.basename(sys.argv[0])
     sys.exit(1)

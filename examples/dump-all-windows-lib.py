@@ -17,7 +17,7 @@ Created on Apr 30, 2013
 @author: diego
 '''
 
-from com.dtmilano.android.viewclient import ViewClient
+from androidviewclient3.viewclient import ViewClient
 
 kwargs2 = {'autodump': False, 'forceviewserveruse': True}
 vc = ViewClient(*ViewClient.connectToDeviceOrExit(), **kwargs2)

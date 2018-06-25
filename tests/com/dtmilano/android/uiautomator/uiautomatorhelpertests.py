@@ -13,8 +13,8 @@ except:
     pass
 
 
-from com.dtmilano.android.viewclient import ViewClient
-from com.dtmilano.android.uiautomator.uiautomatorhelper import UiAutomatorHelper, UiObject2
+from androidviewclient3.viewclient import ViewClient
+from androidviewclient3.uiautomator.uiautomatorhelper import UiAutomatorHelper, UiObject2
 
 __author__ = 'diego'
 

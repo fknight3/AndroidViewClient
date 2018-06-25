@@ -28,9 +28,9 @@ try:
 except:
     pass
 
-from com.dtmilano.android.viewclient import *
-from mocks import MockDevice, MockViewServer
-from mocks import DUMP, DUMP_SAMPLE_UI, VIEW_MAP, VIEW_MAP_API_8, VIEW_MAP_API_17, RUNNING, STOPPED, WINDOWS
+from androidviewclient3.viewclient import *
+from .mocks import MockDevice, MockViewServer
+from .mocks import DUMP, DUMP_SAMPLE_UI, VIEW_MAP, VIEW_MAP_API_8, VIEW_MAP_API_17, RUNNING, STOPPED, WINDOWS
 
 os_name = platform.system()
 if os_name.startswith('Linux'):

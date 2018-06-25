@@ -27,7 +27,7 @@ try:
 except:
     pass
 
-from com.dtmilano.android.viewclient import ViewClient
+from androidviewclient3.viewclient import ViewClient
 
 package = 'com.example.trashcan'
 activity = '.FullScreenActivity'

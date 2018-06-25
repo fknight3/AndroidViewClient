@@ -17,7 +17,7 @@ try:
 except:
     pass
 
-from com.dtmilano.android.viewclient import ViewClient
+from androidviewclient3.viewclient import ViewClient
 
 USE_BROWSER = True
 # Starting: Intent { act=android.intent.action.MAIN flg=0x10000000 cmp=com.android.browser/.BrowserActivity }

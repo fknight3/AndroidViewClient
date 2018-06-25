@@ -30,8 +30,8 @@ except:
 
 import pkg_resources
 pkg_resources.require('androidviewclient>=12.4.0')
-from com.dtmilano.android.viewclient import CulebraTestCase
-from com.dtmilano.android.uiautomator.uiautomatorhelper import UiScrollable
+from androidviewclient3.viewclient import CulebraTestCase
+from androidviewclient3.uiautomator.uiautomatorhelper import UiScrollable
 
 TAG = 'CULEBRA'
 

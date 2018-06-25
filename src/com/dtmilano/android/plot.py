@@ -29,7 +29,7 @@ import mpl_toolkits.axisartist as AA
 import numpy as np
 from mpl_toolkits.axes_grid1 import host_subplot
 
-from com.dtmilano.android.adb.dumpsys import Dumpsys
+from .adb.dumpsys import Dumpsys
 
 __version__ = '15.3.1'
 

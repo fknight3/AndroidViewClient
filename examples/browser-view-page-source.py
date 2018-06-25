@@ -16,7 +16,7 @@ try:
 except:
     pass
 
-from com.dtmilano.android.viewclient import ViewClient
+from androidviewclient3.viewclient import ViewClient
 
 
 VPS = "javascript:alert(document.getElementsByTagName('html')[0].innerHTML);"

@@ -24,7 +24,7 @@ try:
 except:
     pass
 
-from com.dtmilano.android.viewclient import CulebraTestCase
+from androidviewclient3.viewclient import CulebraTestCase
 
 TAG = 'CULEBRA'
 

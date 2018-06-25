@@ -15,8 +15,8 @@ try:
 except:
     pass
 
-from com.dtmilano.android.adb.adbclient import AdbClient
-from com.dtmilano.android.common import obtainAdbPath
+from androidviewclient3.adb.adbclient import AdbClient
+from androidviewclient3.common import obtainAdbPath
 
 VERBOSE = False
 

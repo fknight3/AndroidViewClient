@@ -22,8 +22,8 @@ try:
 except:
     pass
 
-from com.dtmilano.android.viewclient import *
-from mocks import MockDevice
+from androidviewclient3.viewclient import *
+from .mocks import MockDevice
 
 VERBOSE = True
 

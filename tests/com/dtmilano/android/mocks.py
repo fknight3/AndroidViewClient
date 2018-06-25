@@ -755,7 +755,6 @@ class MockDevice(object):
 import sys
 import time
 import select
-#from select import cpython_compatible_select as select
 import threading
 import socket
 import SocketServer

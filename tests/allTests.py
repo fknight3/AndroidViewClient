@@ -6,16 +6,9 @@ Created on Feb 5, 2012
 @author: diego
 '''
 import unittest
-import sys
-import os
 
-try:
-    sys.path.insert(0, os.path.join(os.environ['ANDROID_VIEW_CLIENT_HOME'], 'src'))
-except:
-    pass
-
-from com.dtmilano.android.adb.adbclienttests import AdbClientTests
-from com.dtmilano.android.viewclienttests import ViewTests, ViewClientTests
+from com.dtmilano.android.adb.adbclienttests import AdbClientTest
+from com.dtmilano.android.viewclienttests import ViewTest, ViewClientTest
 
 if __name__ == "__main__":
     #sys.argv = ['', 'ViewTest.testName']

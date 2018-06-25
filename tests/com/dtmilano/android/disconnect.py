@@ -21,7 +21,7 @@ try:
 except:
     pass
 
-from com.dtmilano.android.viewclient import View, TextView, EditText, ViewClient
+from androidviewclient3.viewclient import View, TextView, EditText, ViewClient
 
 
 # Script gets stuck on ViewClient(device, serial) #243

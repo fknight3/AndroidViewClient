@@ -36,10 +36,10 @@ try:
 except:
     pass
 
-from com.dtmilano.android.viewclient import ViewClient, ViewClientOptions, View, CulebraOptions
-from com.dtmilano.android.culebron import Culebron, Operation, Unit
-from com.dtmilano.android.concertina import Concertina
-from com.dtmilano.android.common import debugArgsToDict
+from androidviewclient3.viewclient import ViewClient, ViewClientOptions, View, CulebraOptions
+from androidviewclient3.culebron import Culebron, Operation, Unit
+from androidviewclient3.concertina import Concertina
+from androidviewclient3.common import debugArgsToDict
 
 DEBUG = False
 USAGE = 'usage: %s [OPTION]... [serialno]'
@@ -1292,7 +1292,7 @@ if options[CulebraOptions.PREPEND_TO_SYS_PATH]:
 
 if options[CulebraOptions.UNIT_TEST_CLASS] or (not options[CulebraOptions.UNIT_TEST_METHOD]):
     print '''\
-from com.dtmilano.android.viewclient import ViewClient%s
+from androidviewclient3.viewclient import ViewClient%s
 
 TAG = '%s'
 ''' % (', CulebraTestCase' if options[CulebraOptions.UNIT_TEST_CLASS] else '', TAG)

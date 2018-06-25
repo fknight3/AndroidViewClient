@@ -34,7 +34,7 @@ try:
 except:
     pass
 
-from com.dtmilano.android.viewclient import ViewClient
+from androidviewclient3.viewclient import ViewClient
 
 localViewServer = False
 if len(sys.argv) > 1 and sys.argv[1] == '--localViewServer':

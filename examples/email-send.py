@@ -16,7 +16,7 @@ try:
 except:
     pass
 
-from com.dtmilano.android.viewclient import ViewClient, TextView, EditText
+from androidviewclient3.viewclient import ViewClient, TextView, EditText
 
 device, serialno = ViewClient.connectToDeviceOrExit()
 vc = ViewClient(device=device, serialno=serialno)

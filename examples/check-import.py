@@ -32,9 +32,7 @@ for d in sys.path:
         if re.search('/Lib$', d):
             if not os.path.exists(re.sub('/Lib$', '', d)):
                 print >>sys.stderr, "WARNING: '%s' is in sys.path but doesn't exist" % d
-import com
-import com.dtmilano
-import com.dtmilano.android
-import com.dtmilano.android.viewclient
-from com.dtmilano.android.viewclient import ViewClient, View
+import androidviewclient3
+import androidviewclient3.viewclient
+from androidviewclient3.viewclient import ViewClient, View
 print "OK"

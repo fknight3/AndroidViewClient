@@ -43,11 +43,10 @@ import platform
 import xml.parsers.expat
 import unittest
 import StringIO
-from com.dtmilano.android.common import _nd, _nh, _ns, obtainPxPy, obtainVxVy,\
-    obtainVwVh, obtainAdbPath
-from com.dtmilano.android.window import Window
-from com.dtmilano.android.adb import adbclient
-from com.dtmilano.android.uiautomator.uiautomatorhelper import UiAutomatorHelper
+from .common import _nd, _nh, _ns, obtainPxPy, obtainVxVy,obtainVwVh, obtainAdbPath
+from .window import Window
+from .adb import adbclient
+from .uiautomator.uiautomatorhelper import UiAutomatorHelper
 
 DEBUG = False
 DEBUG_DEVICE = DEBUG and False

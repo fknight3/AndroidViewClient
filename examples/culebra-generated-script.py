@@ -16,7 +16,7 @@ ___________________/  /__/  /__/  /__/  /________________________________
 
 import sys
 
-from com.dtmilano.android.viewclient import ViewClient
+from androidviewclient3.viewclient import ViewClient
 
 TAG = 'CULEBRA'
 

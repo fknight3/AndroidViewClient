@@ -35,8 +35,8 @@ try:
 except:
     REQUESTS_AVAILABLE = False
 import time
-from com.dtmilano.android.adb.adbclient import AdbClient
-from com.dtmilano.android.common import obtainAdbPath
+from ..adb.adbclient import AdbClient
+from ..common import obtainAdbPath
 
 __author__ = 'diego'
 

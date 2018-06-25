@@ -17,8 +17,8 @@ try:
 except:
     pass
 
-from com.dtmilano.android.viewclient import ViewClient, View, ViewClientOptions
-from com.dtmilano.android.common import debugArgsToDict
+from androidviewclient3.viewclient import ViewClient, View, ViewClientOptions
+from androidviewclient3.common import debugArgsToDict
 
 HELP = 'help'
 VERBOSE = 'verbose'

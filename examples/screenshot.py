@@ -10,7 +10,7 @@ Created on Aug 31, 2013
 import sys
 import os
 
-from com.dtmilano.android.viewclient import ViewClient
+from androidviewclient3.viewclient import ViewClient
 
 if len(sys.argv) < 2:
     sys.exit("usage: %s filename.png [serialno]" % sys.argv[0])

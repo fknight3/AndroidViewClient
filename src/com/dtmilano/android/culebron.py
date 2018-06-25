@@ -25,10 +25,10 @@ import time
 
 import numpy
 
-from com.dtmilano.android.common import profileEnd
-from com.dtmilano.android.common import profileStart
-from com.dtmilano.android.concertina import Concertina
-from com.dtmilano.android.viewclient import ViewClient
+from .common import profileEnd
+from .common import profileStart
+from .concertina import Concertina
+from .viewclient import ViewClient
 
 __version__ = '15.3.1'
 
@@ -1236,7 +1236,7 @@ This is usually installed by python package. Check your distribution details.
         self.toggleTargetZones()
 
     def showControlPanel(self):
-        from com.dtmilano.android.controlpanel import ControlPanel
+        from .controlpanel import ControlPanel
 
         self.controlPanel = ControlPanel(self, self.printOperation)
 

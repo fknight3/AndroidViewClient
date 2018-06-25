@@ -27,7 +27,7 @@ try:
 except:
     pass
 
-from com.dtmilano.android.viewclient import *
+from androidviewclient3.viewclient import *
 
 package = 'com.android.gallery'
 activity = 'com.android.camera.GalleryPicker'
