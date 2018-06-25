@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 '''
 Copyright (C) 2013-2018  Diego Torres Milano
-Created on 2018-01-30 by CulebraTester 
+Created on 2018-01-30 by CulebraTester
                       __    __    __    __
-                     /  \  /  \  /  \  /  \ 
+                     /  \  /  \  /  \  /  \
 ____________________/  __\/  __\/  __\/  __\_____________________________
 ___________________/  /__/  /__/  /__/  /________________________________
                    | / \   / \   / \   / \   \___
-                   |/   \_/   \_/   \_/   \    o \ 
+                   |/   \_/   \_/   \_/   \    o \
                                            \_____/--<
 @author: Diego Torres Milano
 @author: Jennifer E. Swofford (ascii art snake)

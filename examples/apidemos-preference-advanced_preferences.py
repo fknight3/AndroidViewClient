@@ -18,7 +18,7 @@ except:
 
 import androidviewclient3.viewclient as viewclient
 if viewclient.__version__ < '1.0':
-    print >> sys.stderr, "%s: This script requires viewclient 1.0 or greater." % os.path.basename(sys.argv[0])
+    print("%s: This script requires viewclient 1.0 or greater." % os.path.basename(sys.argv[0]), file=sys.stderr)
     sys.exit(1)
 
 device, serialno = viewclient.ViewClient.connectToDeviceOrExit()
@@ -44,4 +44,4 @@ for i in range(10):
     myPreference.touch()
 vc.dump()
 value1 = vc.findViewByIdOrRaise(_id).getText()
-print "My preference started with value %s and is now %s" % (value0, value1)
+print("My preference started with value %s and is now %s" % (value0, value1))

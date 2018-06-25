@@ -21,7 +21,6 @@ limitations under the License.
 from __future__ import print_function
 
 import sys
-import types
 from math import ceil
 
 import matplotlib.pyplot as plt
@@ -35,7 +34,7 @@ __version__ = '15.3.1'
 
 DEBUG = True
 
-NumberTypes = (types.IntType, types.LongType, types.FloatType)
+NumberTypes = (int, int, float)
 
 
 class Plot:
