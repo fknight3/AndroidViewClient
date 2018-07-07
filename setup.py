@@ -18,7 +18,7 @@ packages = [(name + "." + subpackage) for subpackage in package_names]
 
 # noinspection SpellCheckingInspection
 setup(name=name,
-      version='15.3.1',
+      version='15.4.0',
       description=
       '''
       AndroidViewClient3 is a 100% pure python library and tools

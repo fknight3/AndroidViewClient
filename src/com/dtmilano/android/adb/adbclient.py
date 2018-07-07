@@ -23,7 +23,7 @@ import unicodedata
 
 from .dumpsys import Dumpsys
 
-__version__ = '15.3.1'
+__version__ = '15.4.0'
 
 import sys
 import warnings

@@ -30,7 +30,7 @@ from .common import profileStart
 from .concertina import Concertina
 from .viewclient import ViewClient
 
-__version__ = '15.3.1'
+__version__ = '15.4.0'
 
 import sys
 import threading
